@@ -472,7 +472,6 @@ func (e *Engine) initFirewall(error) error {
 		manager.ProtocolUDP,
 		nil,
 		&port,
-		manager.RuleDirectionIN,
 		manager.ActionAccept,
 		"",
 		"",
